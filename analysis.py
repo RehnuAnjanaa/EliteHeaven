@@ -4,13 +4,13 @@ analysis.py
 Generate static plots and run a RandomForest to identify major factors affecting flight price.
 
 Usage:
-  - Place this script in your repo (e.g., analysis/analysis.py).
+  - Place this script in your repo (e.g., analysis.py).
   - Install requirements: pip install -r requirements.txt
-  - Run: python analysis/analysis.py --input flight_pricing_dataset.csv
+  - Run: python analysis.py --input flight_pricing_dataset.csv
     or let it download from the repo default RAW_URL.
 Outputs:
-  - PNG files saved to ./analysis/plots/
-  - A simple CSV summary saved to ./analysis/results/feature_importances.csv
+  - PNG files saved to ./plots/
+  - A simple CSV summary saved to ./results/feature_importances.csv
 """
 import os
 import argparse
