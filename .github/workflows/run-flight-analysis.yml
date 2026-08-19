@@ -29,7 +29,7 @@ jobs:
       - name: Upload plots
         uses: actions/upload-artifact@v4
         with:
-          name: flight-analysis-plots
+          name: flight-analysis.py-plots
           path: |
-            analysis/plots
-            analysis/results
+            plots
+            results
